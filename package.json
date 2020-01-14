@@ -1,7 +1,7 @@
 {
-    "name": "gatsby-starter-default",
+    "name": "@castellana/frontend",
     "private": true,
-    "description": "A simple Gatsby starter",
+    "description": "Frontend website for Castellana SRL",
     "version": "0.1.0",
     "author": "Federico Luzzi <fedeluzzi00@gmail.com>",
     "license": "MIT",

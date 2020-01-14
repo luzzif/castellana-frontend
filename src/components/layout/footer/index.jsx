@@ -9,7 +9,6 @@ export const Footer = () => (
     <RootFlex
         py={[4, 5]}
         px={["24px", 4, 4, 5]}
-        mx={-2}
         justifyContent="space-between"
         flexDirection={["column", "column", "column", "row"]}
     >

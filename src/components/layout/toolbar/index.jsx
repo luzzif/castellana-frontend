@@ -1,29 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Container, Item } from "./styled";
-import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { Container, Item, LogoImage } from "./styled";
 import { Flex, Box } from "reflexbox";
+import logoBlack from "../../../images/logo-black.svg";
+import logoWhite from "../../../images/logo-white.svg";
 
 export const Toolbar = () => {
-    const { logoBlackImage, logoWhiteImage } = useStaticQuery(graphql`
-        query {
-            logoBlackImage: file(relativePath: { eq: "logo-black.png" }) {
-                childImageSharp {
-                    fixed(height: 52) {
-                        ...GatsbyImageSharpFixed
-                    }
-                }
-            }
-            logoWhiteImage: file(relativePath: { eq: "logo-white.png" }) {
-                childImageSharp {
-                    fixed(height: 52) {
-                        ...GatsbyImageSharpFixed
-                    }
-                }
-            }
-        }
-    `);
-
     const [hero, setHero] = useState(
         !(typeof window !== "undefined" && window.pageYOffset)
     );
@@ -46,14 +27,7 @@ export const Toolbar = () => {
             hero={hero}
         >
             <Box>
-                <Image
-                    fixed={
-                        hero
-                            ? logoWhiteImage.childImageSharp.fixed
-                            : logoBlackImage.childImageSharp.fixed
-                    }
-                    alt="Mini logo"
-                />
+                <LogoImage src={hero ? logoWhite : logoBlack} alt="Logo" />
             </Box>
             <Box>
                 <Flex mx={-3} justifyContent="flex-end">

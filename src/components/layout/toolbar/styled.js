@@ -19,6 +19,11 @@ export const Container = styled(Flex)`
     width: 100%;
 `;
 
+export const LogoImage = styled.img`
+    height: 52px;
+    margin: 0;
+`;
+
 export const Item = styled(Link)`
     font-size: 16px;
     font-weight: 700;

@@ -12,18 +12,12 @@ import {
 } from "./styled";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { SocialLink } from "../social-link";
+import logoWhite from "../../images/logo-white.svg";
 
 export const Hero = () => {
-    const { heroImage, logoImage } = useStaticQuery(graphql`
+    const { heroImage } = useStaticQuery(graphql`
         query {
             heroImage: file(relativePath: { eq: "hero.jpg" }) {
-                childImageSharp {
-                    fluid(quality: 90) {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
-            logoImage: file(relativePath: { eq: "logo-white.png" }) {
                 childImageSharp {
                     fluid(quality: 90) {
                         ...GatsbyImageSharpFluid
@@ -45,10 +39,7 @@ export const Hero = () => {
                 alignItems="center"
             >
                 <Box py={4}>
-                    <LogoImage
-                        fluid={logoImage.childImageSharp.fluid}
-                        alt="Logo image"
-                    />
+                    <LogoImage src={logoWhite} alt="Logo" />
                 </Box>
                 <Box py={4}>
                     <StyledDivider color="white" />

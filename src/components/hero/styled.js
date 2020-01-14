@@ -20,8 +20,8 @@ export const RootFlex = styled(Flex)`
     left: 0;
 `;
 
-export const LogoImage = styled(Image)`
-    width: 20vw;
+export const LogoImage = styled.img`
+    width: 25vw;
 `;
 
 export const Slogan = styled.span`

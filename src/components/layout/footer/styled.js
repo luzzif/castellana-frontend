@@ -7,6 +7,6 @@ export const RootFlex = styled(Flex)`
     box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.4);
 `;
 
-export const SectionTitle = styled.h3`
-    color: #fff;
+export const Logo = styled.img`
+    width: 100px;
 `;

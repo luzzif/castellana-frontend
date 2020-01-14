@@ -1,0 +1,57 @@
+{
+    "name": "gatsby-starter-default",
+    "private": true,
+    "description": "A simple Gatsby starter",
+    "version": "0.1.0",
+    "author": "Federico Luzzi <fedeluzzi00@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "rimraf .cache && gatsby develop",
+        "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+        "start": "yarn develop",
+        "serve": "gatsby serve",
+        "lint:code": "eslint \"src/**/*.js\"",
+        "lint:prettier": "prettier -l src/**/*.js",
+        "lint:commit-message": "commitlint -e",
+        "lint:ci": "yarn lint:code && yarn lint:prettier"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.26",
+        "@fortawesome/free-brands-svg-icons": "^5.12.0",
+        "@fortawesome/free-solid-svg-icons": "^5.12.0",
+        "@fortawesome/react-fontawesome": "^0.1.8",
+        "gatsby": "^2.18.21",
+        "gatsby-image": "^2.2.38",
+        "gatsby-plugin-react-helmet": "^3.1.21",
+        "gatsby-plugin-sharp": "^2.3.13",
+        "gatsby-plugin-styled-components": "^3.1.17",
+        "gatsby-plugin-typography": "^2.3.21",
+        "gatsby-source-filesystem": "^2.1.46",
+        "gatsby-transformer-sharp": "^2.3.12",
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-helmet": "^5.2.1",
+        "react-typography": "^0.16.19",
+        "reflexbox": "^4.0.6",
+        "smooth-scroll": "^16.1.1",
+        "styled-components": "^4.4.1",
+        "typography": "^0.16.19"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.4",
+        "@commitlint/config-conventional": "^8.3.4",
+        "dotenv": "^8.2.0",
+        "husky": "^4.0.7",
+        "prettier": "^1.19.1",
+        "rimraf": "^3.0.0"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luzzif/gatsby-starter-default"
+    }
+}

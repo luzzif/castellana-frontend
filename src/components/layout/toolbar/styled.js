@@ -29,7 +29,7 @@ export const Item = styled(Link)`
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    color: inherit;
+    color: #fff;
 `;
 
 export const AnimatedMobileMenu = styled(MobileMenu)`
@@ -46,4 +46,5 @@ export const AnimatedMobileMenu = styled(MobileMenu)`
 
 export const StyledMobileMenuIcon = styled(FontAwesomeIcon)`
     font-size: 24px;
+    color: #fff;
 `;

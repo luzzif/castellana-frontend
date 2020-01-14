@@ -8,7 +8,6 @@ import {
 } from "./styled";
 import { Flex, Box } from "reflexbox";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logoBlack from "../../../images/logo-black.svg";
 import logoWhite from "../../../images/logo-white.svg";
 
 export const Toolbar = () => {
@@ -48,7 +47,7 @@ export const Toolbar = () => {
                 hero={hero}
             >
                 <Box>
-                    <LogoImage src={hero ? logoWhite : logoBlack} alt="Logo" />
+                    <LogoImage src={logoWhite} alt="Logo" />
                 </Box>
                 <Box display={["none", "none", "flex"]}>
                     <Flex mx={-3} justifyContent="flex-end">

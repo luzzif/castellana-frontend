@@ -8,7 +8,6 @@ import { WhatDoWeOffer } from "../components/what-do-we-offer";
 import { SectionDivider } from "../components/section-divider";
 import { Shop } from "../components/shop";
 import { Customers } from "../components/customers";
-import { Footer } from "../components/layout/footer";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`

@@ -68,8 +68,8 @@ export const ImageStrip = () => {
     `);
 
     return (
-        <RootFlex width="100%" mt={5}>
-            <RelativeBox width={1 / 6}>
+        <RootFlex width="100%" mt={5} flexWrap="wrap">
+            <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{
                         ...meatImage.childImageSharp.fluid,
@@ -79,7 +79,7 @@ export const ImageStrip = () => {
                     text="Carni"
                 />
             </RelativeBox>
-            <RelativeBox width={1 / 6}>
+            <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{
                         ...fishImage.childImageSharp.fluid,
@@ -89,7 +89,7 @@ export const ImageStrip = () => {
                     text="Pesce"
                 />
             </RelativeBox>
-            <RelativeBox width={1 / 6}>
+            <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{
                         ...vegetablesImage.childImageSharp.fluid,
@@ -99,7 +99,7 @@ export const ImageStrip = () => {
                     text="Verdure"
                 />
             </RelativeBox>
-            <RelativeBox width={1 / 6}>
+            <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{
                         ...hamImage.childImageSharp.fluid,
@@ -109,7 +109,7 @@ export const ImageStrip = () => {
                     text="Salumi"
                 />
             </RelativeBox>
-            <RelativeBox width={1 / 6}>
+            <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{
                         ...freshImage.childImageSharp.fluid,
@@ -119,7 +119,7 @@ export const ImageStrip = () => {
                     text="Freschi"
                 />
             </RelativeBox>
-            <RelativeBox width={1 / 6}>
+            <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{
                         ...cheeseImage.childImageSharp.fluid,

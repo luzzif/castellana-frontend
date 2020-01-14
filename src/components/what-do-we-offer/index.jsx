@@ -14,7 +14,7 @@ export const WhatDoWeOffer = () => {
             <Box>
                 <h2>Cosa offriamo</h2>
             </Box>
-            <Box width="40%" textAlign="center">
+            <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

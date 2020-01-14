@@ -2,7 +2,6 @@ import styled, { keyframes } from "styled-components";
 import { Flex } from "reflexbox";
 import Image from "gatsby-image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Divider } from "../divider";
 
 export const BackgroundImage = styled(Image)`
     position: relative;
@@ -21,7 +20,7 @@ export const RootFlex = styled(Flex)`
 `;
 
 export const LogoImage = styled.img`
-    width: 25vw;
+    margin: 0;
 `;
 
 export const Slogan = styled.span`
@@ -39,24 +38,17 @@ export const AbsoluteContainer = styled.div`
 `;
 
 const wobble = keyframes`
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-5px);
-  }
-  
-  100% {
-    transform: translateY(0);
-  }
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
 `;
 
 export const StyledIcon = styled(FontAwesomeIcon)`
-    font-size: 40px;
+    font-size: 1.5em;
     animation: ${wobble} 1s ease infinite;
 `;
 
-export const StyledDivider = styled(Divider)`
-    width: 10vw;
+export const HighlightedText = styled.span`
+    font-weight: 700;
+    color: #f2812d;
 `;

@@ -8,7 +8,7 @@ import {
     Slogan,
     StyledIcon,
     AbsoluteContainer,
-    StyledDivider
+    HighlightedText
 } from "./styled";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { SocialLink } from "../social-link";
@@ -37,26 +37,27 @@ export const Hero = () => {
                 flexDirection="column"
                 justifyContent="center"
                 alignItems="center"
+                px={4}
             >
-                <Box py={4}>
+                <Box py={3} width={["60%", "50%", "40%", "30%"]}>
                     <LogoImage src={logoWhite} alt="Logo" />
                 </Box>
-                <Box py={4}>
-                    <StyledDivider color="white" />
+                <Box py={3} textAlign="center">
+                    <Slogan>
+                        Food service di qualità,{" "}
+                        <HighlightedText>senza</HighlightedText> compromessi.
+                    </Slogan>
                 </Box>
-                <Box py={4}>
-                    <Slogan>Food service di qualità, senza compromessi.</Slogan>
-                </Box>
-                <Box py={4}>
-                    <Flex mx={-2}>
-                        <Box px={2}>
-                            <SocialLink type="facebook" />
+                <Box py={3}>
+                    <Flex mx={-1}>
+                        <Box px={1}>
+                            <SocialLink type="facebook" noText />
                         </Box>
-                        <Box px={2}>
-                            <SocialLink type="instagram" />
+                        <Box px={1}>
+                            <SocialLink type="instagram" noText />
                         </Box>
-                        <Box px={2}>
-                            <SocialLink type="linkedin" />
+                        <Box px={1}>
+                            <SocialLink type="linkedin" noText />
                         </Box>
                     </Flex>
                 </Box>

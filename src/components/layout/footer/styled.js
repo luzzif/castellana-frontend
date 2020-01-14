@@ -9,4 +9,13 @@ export const RootFlex = styled(Flex)`
 
 export const Logo = styled.img`
     width: 100px;
+    margin: 0;
+`;
+
+export const SectionTitle = styled.h3`
+    color: #f2812d;
+`;
+
+export const CompanyInfoFlex = styled(Flex)`
+    font-size: 16px;
 `;

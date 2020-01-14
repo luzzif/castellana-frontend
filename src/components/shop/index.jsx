@@ -14,7 +14,7 @@ export const Shop = () => (
         <Box>
             <h2>Acquista</h2>
         </Box>
-        <Box width="40%" textAlign="center">
+        <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
             Tramite il nostro nuovo store online, la qualità da noi offerta non
             è mai stata così vicina e semplice da raggiungere. Scopri i nostri
             prodotti di prima scelta, a solo un click da te.

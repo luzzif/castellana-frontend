@@ -2,6 +2,7 @@ import { Flex } from "reflexbox";
 import styled, { css } from "styled-components";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { MobileMenu } from "./mobile";
 
 export const Container = styled(Flex)`
     height: 80px;
@@ -29,6 +30,18 @@ export const Item = styled(Link)`
     font-weight: 700;
     text-decoration: none;
     color: inherit;
+`;
+
+export const AnimatedMobileMenu = styled(MobileMenu)`
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: ${props => (props.open ? "0" : "-100%")};
+    background: #fff;
+    color: #000;
+    transition: top ease 0.3s;
+    z-index: 11;
+    box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.4);
 `;
 
 export const StyledMobileMenuIcon = styled(FontAwesomeIcon)`

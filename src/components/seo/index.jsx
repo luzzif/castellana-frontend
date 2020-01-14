@@ -60,6 +60,10 @@ export const Seo = ({ description, lang, meta, keywords, title, link }) => {
                 {
                     name: "twitter:description",
                     content: metaDescription
+                },
+                {
+                    name: "theme-color",
+                    content: "#f2812d"
                 }
             ]
                 .concat(

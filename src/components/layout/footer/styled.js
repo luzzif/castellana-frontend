@@ -5,6 +5,7 @@ export const RootFlex = styled(Flex)`
     background: #000;
     color: #fff;
     box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.4);
+    max-width: 100vw;
 `;
 
 export const Logo = styled.img`

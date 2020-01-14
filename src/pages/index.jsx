@@ -41,7 +41,6 @@ const Home = () => {
             <Shop />
             <SectionDivider />
             <Customers />
-            <Footer />
         </Layout>
     );
 };

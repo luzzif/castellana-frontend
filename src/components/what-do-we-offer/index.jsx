@@ -1,17 +1,5 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faUtensils,
-    faDrumstickBite,
-    faCarrot,
-    faBacon,
-    faEgg,
-    faFish,
-    faCheese
-} from "@fortawesome/free-solid-svg-icons";
-import { graphql, useStaticQuery } from "gatsby";
-import Image from "gatsby-image";
 import { ImageStrip } from "./image-strip";
 
 export const WhatDoWeOffer = () => {

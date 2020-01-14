@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Item } from "./styled";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Flex, Box } from "reflexbox";
 
 export const Toolbar = () => {
@@ -28,7 +27,6 @@ export const Toolbar = () => {
     const [hero, setHero] = useState(
         !(typeof window !== "undefined" && window.pageYOffset)
     );
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
@@ -39,14 +37,6 @@ export const Toolbar = () => {
 
     const handleScroll = () => {
         setHero(!window.pageYOffset);
-    };
-
-    const handleMobileMenuOpen = () => {
-        setMobileMenuOpen(true);
-    };
-
-    const handleMobileMenuClose = () => {
-        setMobileMenuOpen(false);
     };
 
     return (

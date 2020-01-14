@@ -1,13 +1,10 @@
 import React from "react";
 import { RelativeBox, RootFlex } from "./styled";
 import { graphql, useStaticQuery } from "gatsby";
-import { Flex, Box } from "reflexbox";
-import { AbsoluteContainer } from "./styled";
 import { Image } from "./image";
 
 export const ImageStrip = () => {
     const {
-        foodImage,
         meatImage,
         fishImage,
         vegetablesImage,

@@ -1,15 +1,5 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faUtensils,
-    faDrumstickBite,
-    faCarrot,
-    faBacon,
-    faEgg,
-    faFish,
-    faCheese
-} from "@fortawesome/free-solid-svg-icons";
 
 export const Customers = () => {
     return (
@@ -33,16 +23,28 @@ export const Customers = () => {
                     <Box width="60%">
                         <Flex justifyContent="space-around" alignItems="center">
                             <Box>
-                                <img src="//logo.clearbit.com/spotify.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/spotify.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                             <Box>
-                                <img src="//logo.clearbit.com/facebook.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/facebook.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                             <Box>
-                                <img src="//logo.clearbit.com/google.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/google.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                             <Box>
-                                <img src="//logo.clearbit.com/microsoft.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/microsoft.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                         </Flex>
                         <Flex
@@ -51,13 +53,22 @@ export const Customers = () => {
                             mt={3}
                         >
                             <Box>
-                                <img src="//logo.clearbit.com/mcdonalds.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/mcdonalds.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                             <Box>
-                                <img src="//logo.clearbit.com/stripe.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/stripe.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                             <Box>
-                                <img src="//logo.clearbit.com/atlassian.com?size=100&greyscale=true" />
+                                <img
+                                    src="//logo.clearbit.com/atlassian.com?size=100&greyscale=true"
+                                    alt="Logo"
+                                />
                             </Box>
                         </Flex>
                     </Box>

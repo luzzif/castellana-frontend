@@ -1,15 +1,5 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faUtensils,
-    faDrumstickBite,
-    faCarrot,
-    faBacon,
-    faEgg,
-    faFish,
-    faCheese
-} from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./button";
 
 export const Shop = () => (

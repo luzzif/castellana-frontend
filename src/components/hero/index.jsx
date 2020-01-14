@@ -5,14 +5,12 @@ import {
     RootFlex,
     BackgroundImage,
     LogoImage,
-    CompanyName,
     Slogan,
     StyledIcon,
     AbsoluteContainer,
     StyledDivider
 } from "./styled";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { Divider } from "../divider";
 import { SocialLink } from "../social-link";
 
 export const Hero = () => {

@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Layout } from "../components/layout";
 import { WhoAreWe } from "../components/who-are-we";
 import { WhatDoWeOffer } from "../components/what-do-we-offer";
-import { Divider } from "../components/divider";
 import { SectionDivider } from "../components/section-divider";
 import { Shop } from "../components/shop";
 import { Customers } from "../components/customers";

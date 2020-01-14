@@ -6,7 +6,6 @@ import {
     faInstagram,
     faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
-import { Social } from "./styled";
 import { Box } from "reflexbox";
 import { UndecoratedLink } from "../undecorated-link";
 import { RootFlex } from "./styled";

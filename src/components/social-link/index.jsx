@@ -36,6 +36,7 @@ export const SocialLink = ({ type, noText }) => {
             href={socialSpecificInfo.url}
             target="_blank"
             rel="noopener noreferrer"
+            external
         >
             <RootFlex
                 type={type}

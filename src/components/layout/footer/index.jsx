@@ -4,6 +4,7 @@ import { Divider } from "../../divider";
 import { SocialLink } from "../../social-link";
 import { RootFlex, Logo, SectionTitle, CompanyInfoFlex } from "./styled";
 import logoWhite from "../../../images/logo-white.svg";
+import { UndecoratedLink } from "../../undecorated-link";
 
 export const Footer = () => (
     <RootFlex
@@ -23,11 +24,23 @@ export const Footer = () => (
             >
                 <Flex flexDirection="column">
                     <Box>
-                        <SectionTitle>Chi siamo</SectionTitle>
+                        <SectionTitle>Su di noi</SectionTitle>
                     </Box>
-                    <Box mb={2}>Azienda</Box>
-                    <Box mb={2}>Prodotti</Box>
-                    <Box>Business</Box>
+                    <Box mb={2}>
+                        <UndecoratedLink to="/#who-are-we">
+                            Chi siamo
+                        </UndecoratedLink>
+                    </Box>
+                    <Box mb={2}>
+                        <UndecoratedLink to="/#what-do-we-offer">
+                            Cosa offriamo
+                        </UndecoratedLink>
+                    </Box>
+                    <Box>
+                        <UndecoratedLink to="/#customers">
+                            I nostri clienti
+                        </UndecoratedLink>
+                    </Box>
                 </Flex>
             </Box>
             <Box
@@ -39,7 +52,11 @@ export const Footer = () => (
                     <Box>
                         <SectionTitle>Servizi</SectionTitle>
                     </Box>
-                    <Box mb={2}>E-commerce</Box>
+                    <Box mb={2}>
+                        <UndecoratedLink to="/#shop">
+                            E-commerce
+                        </UndecoratedLink>
+                    </Box>
                     <Box mb={2}>Logistica sincronizzata</Box>
                     <Box>Cash&carry</Box>
                 </Flex>

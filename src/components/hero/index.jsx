@@ -44,8 +44,8 @@ export const Hero = () => {
                 </Box>
                 <Box py={3} textAlign="center">
                     <Slogan>
-                        Food service di qualità,{" "}
-                        <HighlightedText>senza</HighlightedText> compromessi.
+                        Scegli il meglio, al resto ci pensiamo
+                        <HighlightedText> noi</HighlightedText>
                     </Slogan>
                 </Box>
                 <Box py={3}>

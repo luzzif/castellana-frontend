@@ -14,10 +14,20 @@ export const Shop = () => (
         <Box>
             <h2>Acquista</h2>
         </Box>
-        <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
-            Tramite il nostro nuovo store online, la qualità da noi offerta non
-            è mai stata così vicina e semplice da raggiungere. Scopri i nostri
-            prodotti di prima scelta, a solo un click da te.
+        <Box width={["80%", "70%", "60%", "50%"]} textAlign="center">
+            <p>
+                È finalmente on-line la nostra piattaforma e-commerce
+                <b> CASTELLANA.UX® </b>
+                sempre aggiornata e dalla quale potrete effettuare acquisti
+                real-time in modo semplice e veloce. In questo modo avrete uno
+                strumento chiaro e veloce per effettuare le vostre operazioni
+                comodamente on-line da qualsiasi pc, smartphone o tablet, per
+                una user experience (UX) senza eguali.
+            </p>
+            <p>
+                Registrati alla nostra community ed inizia ad effettuare i primi
+                ordini.
+            </p>
         </Box>
         <Box mt={44}>
             <Button />

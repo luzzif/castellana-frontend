@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
 import { useStaticQuery, graphql } from "gatsby";
-import { RoundedImage } from "./styled";
+import { RoundedImage, WriteToUsLink } from "./styled";
 
 export const OurServices = () => {
     const {
@@ -119,8 +119,11 @@ export const OurServices = () => {
                         poter organizzare eventi, cooking show, shooting ed
                         attività di team building con un'ampia gamma di proposte
                         {/* TODO: put link to contact us form */}
-                        Per qualsiasi informazione, non esitate a compilare il
-                        form qui sotto, vi ricontatteremo al più presto.
+                        Per qualsiasi informazione,{" "}
+                        <WriteToUsLink to="/#write-to-us">
+                            non esitate a compilare il form qui sotto
+                        </WriteToUsLink>
+                        , vi ricontatteremo al più presto.
                     </p>
                 </Box>
                 <Box width={[8 / 10, 1 / 2, 1 / 3]} px={[0, 4]} mb={[4, 0]}>

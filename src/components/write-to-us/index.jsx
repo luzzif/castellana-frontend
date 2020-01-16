@@ -79,9 +79,9 @@ export const WriteToUs = () => {
             <Box width={["80%", "70%", "60%", "40%"]}>
                 <Flex flexDirection="column" alignItems="center">
                     <Box mb={4}>
-                        Per qualsiasi tipo di informazione o richiesta non
-                        esitare a riempire il modulo qui sotto: ti risponderemo
-                        al più presto.
+                        Se lavori nel campo della ristorazione, sei un food
+                        blogger, un buyer o lavori per la stampa di settore
+                        contattaci, il nostro team ti contatterà al più presto.
                     </Box>
                     <Box mb={3} width="100%">
                         <Input

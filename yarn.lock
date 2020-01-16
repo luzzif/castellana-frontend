@@ -5759,6 +5759,13 @@ gatsby-page-utils@^0.0.37:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
+gatsby-plugin-google-analytics@^2.1.33:
+  version "2.1.33"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.33.tgz#4fcc203dee67832af4b6c619117dbcf4d67ecbeb"
+  integrity sha512-KOlLAInnUVPKkaphOayfsEcFOXEo5yTu03DbLc/WtAsny7vXN2Nd5JV8JJZOF1Z46hGzkgIjKO8AZCz//LSIoQ==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 gatsby-plugin-page-creator@^2.1.38:
   version "2.1.38"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.1.38.tgz#2c78d4baae296b0b3396cad689787a65c0a50585"

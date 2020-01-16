@@ -1,3 +1,7 @@
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
     siteMetadata: {
         title: "Castellana food service",
@@ -18,6 +22,12 @@ module.exports = {
             resolve: "gatsby-plugin-typography",
             options: {
                 pathToConfigModule: "src/utils/typography"
+            }
+        },
+        {
+            resolve: "gatsby-plugin-google-analytics",
+            options: {
+                trackingId: process.env.ANALYTICS_TRACKING_ID
             }
         },
         "gatsby-transformer-sharp",

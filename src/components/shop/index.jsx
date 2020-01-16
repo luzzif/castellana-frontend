@@ -14,7 +14,7 @@ export const Shop = () => (
         <Box>
             <h2>Acquista</h2>
         </Box>
-        <Box width={["80%", "70%", "60%", "50%"]} textAlign="center">
+        <Box width={["80%", "70%", "60%", "40%"]}>
             <p>
                 È finalmente on-line la nostra piattaforma e-commerce
                 <b> CASTELLANA.UX® </b>

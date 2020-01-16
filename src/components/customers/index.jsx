@@ -13,7 +13,7 @@ export const Customers = () => {
             <Box>
                 <h2>I nostri clienti</h2>
             </Box>
-            <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
+            <Box width={["80%", "70%", "60%", "40%"]}>
                 Castellana fornisce già alcuni dei più illustri nomi nella
                 ristorazione italiana. Entra a far parte della folta lista e
                 goditi i numerosi vantaggi da noi offerti.

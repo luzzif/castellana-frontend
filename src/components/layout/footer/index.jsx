@@ -59,7 +59,7 @@ export const Footer = () => (
                     </Box>
                     <Box mb={2}>
                         <UndecoratedLink to="/#synchronized-logistics">
-                            Logistica sincronizzata
+                            Logistica
                         </UndecoratedLink>
                     </Box>
                     <Box mb={2}>
@@ -83,7 +83,11 @@ export const Footer = () => (
                     <Box>
                         <SectionTitle>Contattaci</SectionTitle>
                     </Box>
-                    <Box mb={3}>Collabora</Box>
+                    <Box mb={3}>
+                        <UndecoratedLink to="/#write-to-us">
+                            Scrivici
+                        </UndecoratedLink>
+                    </Box>
                 </Flex>
             </Box>
             <Box

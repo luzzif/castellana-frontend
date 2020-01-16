@@ -62,7 +62,7 @@ export const OurServices = () => {
                     px={[0, 4]}
                     id="synchronized-logistics"
                 >
-                    <h3>Logistica al passo con i tempi</h3>
+                    <h3>Logistica</h3>
                     <p>
                         Effettuiamo consegne direttamente in giornata. Siamo
                         attrezzati anche per l’export avvalendoci di

@@ -2,6 +2,8 @@ require("dotenv").config({
     path: `.env.${process.env.NODE_ENV}`
 });
 
+const proxy = require("http-proxy-middleware");
+
 module.exports = {
     siteMetadata: {
         title: "Castellana food service",
@@ -33,5 +35,16 @@ module.exports = {
         "gatsby-transformer-sharp",
         "gatsby-plugin-sharp",
         "gatsby-plugin-styled-components"
-    ]
+    ],
+    developMiddleware: app => {
+        app.use(
+            "/.netlify/functions/",
+            proxy({
+                target: "http://localhost:9000",
+                pathRewrite: {
+                    "/.netlify/functions/": ""
+                }
+            })
+        );
+    }
 };

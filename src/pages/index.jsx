@@ -9,6 +9,7 @@ import { SectionDivider } from "../components/section-divider";
 import { Shop } from "../components/shop";
 import { OurBrands } from "../components/our-brands";
 import { OurServices } from "../components/our-services";
+import { WriteToUs } from "../components/write-to-us";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`
@@ -43,6 +44,8 @@ const Home = () => {
             <OurServices />
             <SectionDivider />
             <OurBrands />
+            <SectionDivider />
+            <WriteToUs />
         </Layout>
     );
 };

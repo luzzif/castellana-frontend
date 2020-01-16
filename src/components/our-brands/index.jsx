@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
 
-export const Customers = () => {
+export const OurBrands = () => {
     return (
         <Flex
             flexDirection="column"
@@ -11,12 +11,11 @@ export const Customers = () => {
             py={4}
         >
             <Box>
-                <h2>I nostri clienti</h2>
+                <h2>I nostri marchi</h2>
             </Box>
             <Box width={["80%", "70%", "60%", "40%"]}>
-                Castellana fornisce già alcuni dei più illustri nomi nella
-                ristorazione italiana. Entra a far parte della folta lista e
-                goditi i numerosi vantaggi da noi offerti.
+                Castellana s.r.l è partner nella distribuzione dei maggiori
+                player nazionali ed internazionali del settore food & beverage
             </Box>
             <Box mt={5} width="100%">
                 <Flex width="100%" justifyContent="center">

@@ -8,6 +8,7 @@ import { WhatDoWeOffer } from "../components/what-do-we-offer";
 import { SectionDivider } from "../components/section-divider";
 import { Shop } from "../components/shop";
 import { OurBrands } from "../components/our-brands";
+import { OurServices } from "../components/our-services";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`
@@ -38,6 +39,8 @@ const Home = () => {
             <WhatDoWeOffer />
             <SectionDivider />
             <Shop />
+            <SectionDivider />
+            <OurServices />
             <SectionDivider />
             <OurBrands />
         </Layout>

@@ -57,8 +57,21 @@ export const Footer = () => (
                             E-commerce
                         </UndecoratedLink>
                     </Box>
-                    <Box mb={2}>Logistica sincronizzata</Box>
-                    <Box>Cash&carry</Box>
+                    <Box mb={2}>
+                        <UndecoratedLink to="/#synchronized-logistics">
+                            Logistica sincronizzata
+                        </UndecoratedLink>
+                    </Box>
+                    <Box mb={2}>
+                        <UndecoratedLink to="/#cash-and-carry">
+                            Cash&carry
+                        </UndecoratedLink>
+                    </Box>
+                    <Box>
+                        <UndecoratedLink to="/#cooking-hub">
+                            Cooking hub
+                        </UndecoratedLink>
+                    </Box>
                 </Flex>
             </Box>
             <Box

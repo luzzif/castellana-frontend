@@ -29,7 +29,7 @@ export const Item = styled(Link)`
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    color: #fff;
+    color: ${props => (props.mobile ? "#000" : "#fff")};
 `;
 
 export const AnimatedMobileMenu = styled(MobileMenu)`
@@ -46,5 +46,5 @@ export const AnimatedMobileMenu = styled(MobileMenu)`
 
 export const StyledMobileMenuIcon = styled(FontAwesomeIcon)`
     font-size: 24px;
-    color: #fff;
+    color: ${props => (props.mobile ? "#fff" : "#000")};
 `;

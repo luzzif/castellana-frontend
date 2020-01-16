@@ -41,7 +41,12 @@ export const OurServices = () => {
     `);
 
     return (
-        <Flex flexDirection="column" alignItems="center" py={4}>
+        <Flex
+            flexDirection="column"
+            alignItems="center"
+            py={4}
+            id="our-services"
+        >
             <Box>
                 <h2>I nostri servizi</h2>
             </Box>

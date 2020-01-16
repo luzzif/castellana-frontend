@@ -61,12 +61,16 @@ export const Toolbar = () => {
                             <Item to="/#shop">Acquista</Item>
                         </Box>
                         <Box px={3}>
+                            <Item to="/#our-services">I nostri servizi</Item>
+                        </Box>
+                        <Box px={3}>
                             <Item to="/#customers">I nostri clienti</Item>
                         </Box>
                     </Flex>
                 </Box>
                 <Box display={["flex", "flex", "none"]}>
                     <StyledMobileMenuIcon
+                        mobile
                         icon={faBars}
                         onClick={handleMobileMenuOpen}
                     />

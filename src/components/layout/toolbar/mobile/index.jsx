@@ -8,22 +8,27 @@ export const MobileMenu = ({ onClose, ...rest }) => (
     <Flex flexDirection="column" alignItems="center" {...rest} py={3}>
         <Flex flexDirection="column" alignItems="center" my={-2}>
             <Box py={2}>
-                <Item to="/#who-are-we" onClick={onClose}>
+                <Item mobile to="/#who-are-we" onClick={onClose}>
                     Chi siamo
                 </Item>
             </Box>
             <Box py={2}>
-                <Item to="/#what-do-we-offer" onClick={onClose}>
+                <Item mobile to="/#what-do-we-offer" onClick={onClose}>
                     Cosa offriamo
                 </Item>
             </Box>
             <Box py={2}>
-                <Item to="/#shop" onClick={onClose}>
+                <Item mobile to="/#shop" onClick={onClose}>
                     Acquista
                 </Item>
             </Box>
             <Box py={2}>
-                <Item to="/#customers" onClick={onClose}>
+                <Item mobile to="/#our-services" onClick={onClose}>
+                    I nostri servizi
+                </Item>
+            </Box>
+            <Box py={2}>
+                <Item mobile to="/#customers" onClick={onClose}>
                     I nostri clienti
                 </Item>
             </Box>

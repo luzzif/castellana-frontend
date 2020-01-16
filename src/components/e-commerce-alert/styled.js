@@ -7,6 +7,11 @@ const commonStyle = css`
     color: #fff;
     border-radius: 16px;
     box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.4);
+    ${props =>
+        !props.show &&
+        css`
+            display: none !important;
+        `}
 `;
 
 export const RootDesktopFlex = styled(Flex)`

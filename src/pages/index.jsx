@@ -7,8 +7,6 @@ import { WhoAreWe } from "../components/who-are-we";
 import { WhatDoWeOffer } from "../components/what-do-we-offer";
 import { SectionDivider } from "../components/section-divider";
 import { Shop } from "../components/shop";
-import { Customers } from "../components/customers";
-import { ECommerceAlert } from "../components/e-commerce-alert";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`
@@ -41,7 +39,6 @@ const Home = () => {
             <Shop />
             <SectionDivider />
             <Customers />
-            <ECommerceAlert />
         </Layout>
     );
 };

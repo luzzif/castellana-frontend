@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: "Castellana food service",
         // TODO: change the text
-        description: "Castellana SRL effettua food delivery di qualità",
+        description: "Castellana s.r.l effettua food delivery di qualità",
         author: "Federico Luzzi"
     },
     plugins: [

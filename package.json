@@ -1,7 +1,7 @@
 {
     "name": "@castellana/frontend",
     "private": true,
-    "description": "Frontend website for Castellana SRL",
+    "description": "Frontend website for Castellana s.r.l",
     "version": "0.1.0",
     "author": "Federico Luzzi <fedeluzzi00@gmail.com>",
     "license": "MIT",

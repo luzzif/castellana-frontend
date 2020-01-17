@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { RootDesktopFlex, RootMobileFlex } from "./styled";
-import { UndecoratedLink } from "../undecorated-link";
 import { Box } from "reflexbox";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-export const ECommerceAlert = ({ show, onClose }) => (
+export const CookiesAlert = ({ show, onClose }) => (
     <>
         <RootDesktopFlex
             show={show}
@@ -16,10 +15,11 @@ export const ECommerceAlert = ({ show, onClose }) => (
             px={4}
         >
             <Box display={["none", "none", "flex"]} mr={2}>
-                <UndecoratedLink external href="http://castellana.netlify.com">
-                    Clicca qui per scoprire la nuovissima piattaforma e-commerce
-                    di Castellana, una novità assoluta.
-                </UndecoratedLink>
+                Questo sito fa uso di cookie per migliorare l’esperienza di
+                navigazione degli utenti e per raccogliere informazioni
+                sull’utilizzo del sito stesso. Proseguendo nella navigazione si
+                accetta l’uso dei cookie; in caso contrario è possibile
+                abbandonare il sito.
             </Box>
             <Box display={["none", "none", "flex"]}>
                 <FontAwesomeIcon icon={faTimes} onClick={onClose} />
@@ -32,10 +32,11 @@ export const ECommerceAlert = ({ show, onClose }) => (
             px={4}
         >
             <Box display={["flex", "flex", "none"]}>
-                <UndecoratedLink external href="http://castellana.netlify.com">
-                    Clicca qui per scoprire la nuovissima piattaforma e-commerce
-                    di Castellana, una novità assoluta.
-                </UndecoratedLink>
+                Questo sito fa uso di cookie per migliorare l’esperienza di
+                navigazione degli utenti e per raccogliere informazioni
+                sull’utilizzo del sito stesso. Proseguendo nella navigazione si
+                accetta l’uso dei cookie; in caso contrario è possibile
+                abbandonare il sito.
             </Box>
             <Box display={["flex", "flex", "none"]}>
                 <FontAwesomeIcon icon={faTimes} onClick={onClose} />
@@ -44,6 +45,7 @@ export const ECommerceAlert = ({ show, onClose }) => (
     </>
 );
 
-ECommerceAlert.propTypes = {
+CookiesAlert.propTypes = {
+    show: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired
 };

@@ -2,23 +2,30 @@ import React from "react";
 import { Toolbar } from "./toolbar";
 import { Main } from "./styled";
 import { Footer } from "./footer";
-import { ECommerceAlert } from "../e-commerce-alert";
-import { useState } from "react";
+import { CookiesAlert } from "../cookies-alert";
+import { useCookies } from "react-cookie";
 import { useCallback } from "react";
 
+const cookiesAlertHiddenCookieName = "cookies-alert-hidden";
+
 export const Layout = ({ children }) => {
-    const [show, setShow] = useState(true);
+    const [cookies, setCookie] = useCookies([cookiesAlertHiddenCookieName]);
 
     const handleClose = useCallback(() => {
-        setShow(false);
-    }, []);
+        setCookie(cookiesAlertHiddenCookieName, true, {
+            expires: new Date(Date.now() + 31557600000)
+        });
+    }, [setCookie]);
 
     return (
         <>
             <Toolbar />
             <Main>{children}</Main>
             <Footer />
-            <ECommerceAlert show={show} onClose={handleClose} />
+            <CookiesAlert
+                show={!cookies[cookiesAlertHiddenCookieName]}
+                onClose={handleClose}
+            />
         </>
     );
 };

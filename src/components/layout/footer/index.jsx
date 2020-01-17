@@ -38,7 +38,7 @@ export const Footer = () => (
                     </Box>
                     <Box>
                         <UndecoratedLink to="/#customers">
-                            I nostri clienti
+                            I nostri marchi
                         </UndecoratedLink>
                     </Box>
                 </Flex>

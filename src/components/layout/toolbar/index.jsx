@@ -64,7 +64,7 @@ export const Toolbar = () => {
                             <Item to="/#our-services">I nostri servizi</Item>
                         </Box>
                         <Box px={3}>
-                            <Item to="/#customers">I nostri clienti</Item>
+                            <Item to="/#customers">I nostri marchi</Item>
                         </Box>
                     </Flex>
                 </Box>

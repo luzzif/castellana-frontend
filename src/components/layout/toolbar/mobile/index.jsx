@@ -29,7 +29,7 @@ export const MobileMenu = ({ onClose, ...rest }) => (
             </Box>
             <Box py={2}>
                 <Item mobile to="/#customers" onClick={onClose}>
-                    I nostri clienti
+                    I nostri marchi
                 </Item>
             </Box>
         </Flex>

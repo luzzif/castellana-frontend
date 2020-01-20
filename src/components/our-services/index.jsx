@@ -116,7 +116,7 @@ export const OurServices = () => {
                     <h3>Cooking hub</h3>
                     <p>
                         Cooking Hub è{/* TODO: put correct size */}
-                        un’aera offerta da Castellana di xxx mq nella quale
+                        un’aera offerta da Castellana di 200mq nella quale
                         poter organizzare eventi, cooking show, shooting ed
                         attività di team building con un'ampia gamma di proposte
                         {/* TODO: put link to contact us form */}

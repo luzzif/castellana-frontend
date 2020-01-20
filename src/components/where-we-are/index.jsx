@@ -1,10 +1,10 @@
 import React from "react";
-import { Marker, Popup, TileLayer } from "react-leaflet";
-import { StyledMap } from "./styled";
+import { Marker, TileLayer } from "react-leaflet";
+import { StyledMap, StyledPopup } from "./styled";
 
 const LATITUDE = 40.49992;
 const LONGITUDE = 17.3826;
-const ZOOM = 12;
+const ZOOM = 14;
 
 export const WhereAreWe = () => (
     <StyledMap center={[LATITUDE, LONGITUDE]} zoom={ZOOM}>
@@ -13,11 +13,7 @@ export const WhereAreWe = () => (
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
         <Marker position={[LATITUDE, LONGITUDE]}>
-            <Popup>
-                A pretty CSS3 popup.
-                <br />
-                Easily customizable.
-            </Popup>
+            <StyledPopup>Castellana s.r.l</StyledPopup>
         </Marker>
     </StyledMap>
 );

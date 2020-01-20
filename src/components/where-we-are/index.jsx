@@ -6,14 +6,19 @@ const LATITUDE = 40.49992;
 const LONGITUDE = 17.3826;
 const ZOOM = 14;
 
-export const WhereAreWe = () => (
-    <StyledMap center={[LATITUDE, LONGITUDE]} zoom={ZOOM}>
-        <TileLayer
-            url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        />
-        <Marker position={[LATITUDE, LONGITUDE]}>
-            <StyledPopup>Castellana s.r.l</StyledPopup>
-        </Marker>
-    </StyledMap>
-);
+export const WhereAreWe = () => {
+    if (typeof window !== "undefined") {
+        return (
+            <StyledMap center={[LATITUDE, LONGITUDE]} zoom={ZOOM}>
+                <TileLayer
+                    url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                />
+                <Marker position={[LATITUDE, LONGITUDE]}>
+                    <StyledPopup>Castellana s.r.l</StyledPopup>
+                </Marker>
+            </StyledMap>
+        );
+    }
+    return null;
+};

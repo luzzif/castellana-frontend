@@ -32,11 +32,6 @@ const Home = () => {
                         href:
                             "https://fonts.googleapis.com/css?family=Muli:500,700&display=swap",
                         rel: "stylesheet"
-                    },
-                    {
-                        href:
-                            "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css",
-                        rel: "stylesheet"
                     }
                 ]}
             />

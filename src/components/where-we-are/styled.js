@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Map, Popup, Marker } from "react-leaflet";
+import { Map, Popup } from "react-leaflet";
 
 export const StyledMap = styled(Map)`
     height: 400px;

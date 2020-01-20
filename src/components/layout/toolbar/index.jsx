@@ -55,9 +55,6 @@ export const Toolbar = () => {
                             <Item to="/#who-are-we">Chi siamo</Item>
                         </Box>
                         <Box px={3}>
-                            <Item to="/#what-do-we-offer">Cosa offriamo</Item>
-                        </Box>
-                        <Box px={3}>
                             <Item to="/#shop">Acquista</Item>
                         </Box>
                         <Box px={3}>

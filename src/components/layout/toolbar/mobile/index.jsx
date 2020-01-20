@@ -13,11 +13,6 @@ export const MobileMenu = ({ onClose, ...rest }) => (
                 </Item>
             </Box>
             <Box py={2}>
-                <Item mobile to="/#what-do-we-offer" onClick={onClose}>
-                    Cosa offriamo
-                </Item>
-            </Box>
-            <Box py={2}>
                 <Item mobile to="/#shop" onClick={onClose}>
                     Acquista
                 </Item>

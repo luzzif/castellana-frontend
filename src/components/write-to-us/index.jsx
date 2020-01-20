@@ -71,7 +71,7 @@ export const WriteToUs = () => {
             alignItems="center"
             id="write-to-us"
             mt={5}
-            mb={4}
+            mb={5}
         >
             <Box>
                 <h2>Scrivici</h2>
@@ -79,9 +79,7 @@ export const WriteToUs = () => {
             <Box width={["80%", "70%", "60%", "40%"]}>
                 <Flex flexDirection="column" alignItems="center">
                     <Box mb={4}>
-                        Se lavori nel campo della ristorazione, sei un food
-                        blogger, un buyer o lavori per la stampa di settore
-                        contattaci, il nostro team ti contatterà al più presto.
+                        Compila il form per inoltrarci le tue richieste.
                     </Box>
                     <Box mb={3} width="100%">
                         <Input

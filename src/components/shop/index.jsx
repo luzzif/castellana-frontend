@@ -11,25 +11,18 @@ export const Shop = () => (
         pt={4}
         pb={5}
     >
-        <Box>
-            <h2>Acquista</h2>
+        <Box width={["80%", "70%", "60%", "40%"]}>
+            <h2>E-commerce CASTELLANA.UX®</h2>
         </Box>
         <Box width={["80%", "70%", "60%", "40%"]}>
-            <p>
-                È finalmente on-line la nostra piattaforma e-commerce
-                <b> CASTELLANA.UX® </b>
-                sempre aggiornata e dalla quale potrete effettuare acquisti
-                real-time in modo semplice e veloce. In questo modo avrete uno
-                strumento chiaro e veloce per effettuare le vostre operazioni
-                comodamente on-line da qualsiasi pc, smartphone o tablet, per
-                una user experience (UX) senza eguali.
-            </p>
+            Grazie alla piattaforma e-commerce CASTELLANA.UX® potrai effettuare
+            acquisti da piattaforma su PC, smartphone o tablet.
             <p>
                 Registrati alla nostra community ed inizia ad effettuare i primi
                 ordini.
             </p>
         </Box>
-        <Box mt={44}>
+        <Box mt={3}>
             <Button />
         </Box>
     </Flex>

@@ -68,7 +68,7 @@ export const ImageStrip = () => {
     `);
 
     return (
-        <RootFlex width="100%" mt={5} flexWrap="wrap">
+        <RootFlex width="100%" my={4} flexWrap="wrap">
             <RelativeBox width={[1 / 2, 1 / 3, 1 / 6]}>
                 <Image
                     sizes={{

@@ -4,7 +4,7 @@ import { Divider } from "../../divider";
 import { SocialLink } from "../../social-link";
 import { RootFlex, Logo, SectionTitle, CompanyInfoFlex } from "./styled";
 import logoWhite from "../../../images/logo-white.svg";
-import { UndecoratedLink } from "../../undecorated-link";
+import { CustomLink } from "../../custom-link";
 
 export const Footer = () => (
     <RootFlex
@@ -27,19 +27,14 @@ export const Footer = () => (
                         <SectionTitle>Su di noi</SectionTitle>
                     </Box>
                     <Box mb={2}>
-                        <UndecoratedLink to="/#who-are-we">
+                        <CustomLink to="/#who-are-we">
                             Chi siamo
-                        </UndecoratedLink>
-                    </Box>
-                    <Box mb={2}>
-                        <UndecoratedLink to="/#what-do-we-offer">
-                            Cosa offriamo
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                     <Box>
-                        <UndecoratedLink to="/#customers">
+                        <CustomLink to="/#customers">
                             I nostri marchi
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                 </Flex>
             </Box>
@@ -53,24 +48,24 @@ export const Footer = () => (
                         <SectionTitle>Servizi</SectionTitle>
                     </Box>
                     <Box mb={2}>
-                        <UndecoratedLink to="/#shop">
+                        <CustomLink to="/#shop">
                             E-commerce
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                     <Box mb={2}>
-                        <UndecoratedLink to="/#synchronized-logistics">
+                        <CustomLink to="/#synchronized-logistics">
                             Logistica
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                     <Box mb={2}>
-                        <UndecoratedLink to="/#cash-and-carry">
+                        <CustomLink to="/#cash-and-carry">
                             Cash&carry
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                     <Box>
-                        <UndecoratedLink to="/#cooking-hub">
+                        <CustomLink to="/#cooking-hub">
                             Cooking hub
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                 </Flex>
             </Box>
@@ -84,9 +79,9 @@ export const Footer = () => (
                         <SectionTitle>Contattaci</SectionTitle>
                     </Box>
                     <Box mb={3}>
-                        <UndecoratedLink to="/#write-to-us">
+                        <CustomLink to="/#write-to-us">
                             Scrivici
-                        </UndecoratedLink>
+                        </CustomLink>
                     </Box>
                 </Flex>
             </Box>

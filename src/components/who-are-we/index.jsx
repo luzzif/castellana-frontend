@@ -1,5 +1,6 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
+import { CustomLink } from "../custom-link";
 
 export const WhoAreWe = () => (
     <Flex
@@ -19,12 +20,10 @@ export const WhoAreWe = () => (
                 della distribuzione food & beverage.
             </p>
             <p>
-                Gestiamo più di <b>#4800 articoli</b>, conservati nei nostri{" "}
-                <b>#2 </b>
-                building di <b>#7000mq</b> totali, dotati di <b>#4</b> celle
-                frigo di <b>#1000mq </b>
+                Gestiamo più di #4800 articoli, conservati nei nostri #2
+                building di #7000mq totali, dotati di #4 celle frigo di #1000mq
                 totali (da -40°C, -20°C, 4°C), trasportati dalla flotta dei
-                nostri <b>#15</b> furgoni attrezzati.
+                nostri #15 furgoni attrezzati.
             </p>
             <p>
                 Vantiamo un gruppo dedicato alla selezione e ricerca giornaliera
@@ -36,6 +35,11 @@ export const WhoAreWe = () => (
                 strutturato in modo da offrire i prodotti migliori alle migliori
                 condizioni, ottimizzando costi, sprechi e soddisfacendo le
                 richieste della nostra clientela.
+            </p>
+            <p>
+                <CustomLink primary underlined>
+                    Scarica il certificato
+                </CustomLink>
             </p>
         </Box>
     </Flex>

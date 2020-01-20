@@ -7,7 +7,7 @@ import {
     faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { Box } from "reflexbox";
-import { UndecoratedLink } from "../undecorated-link";
+import { CustomLink } from "../custom-link";
 import { RootFlex } from "./styled";
 
 // TODO: put proper links
@@ -32,7 +32,7 @@ const socialInfo = {
 export const SocialLink = ({ type, noText }) => {
     const socialSpecificInfo = socialInfo[type];
     return (
-        <UndecoratedLink
+        <CustomLink
             href={socialSpecificInfo.url}
             target="_blank"
             rel="noopener noreferrer"
@@ -50,7 +50,7 @@ export const SocialLink = ({ type, noText }) => {
                 </Box>
                 {!noText && <Box px={2}>{socialSpecificInfo.name}</Box>}
             </RootFlex>
-        </UndecoratedLink>
+        </CustomLink>
     );
 };
 

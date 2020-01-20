@@ -1,7 +1,8 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
 import { useStaticQuery, graphql } from "gatsby";
-import { RoundedImage, WriteToUsLink } from "./styled";
+import { RoundedImage } from "./styled";
+import { CustomLink } from "../custom-link";
 
 export const OurServices = () => {
     const {
@@ -120,9 +121,9 @@ export const OurServices = () => {
                         attività di team building con un'ampia gamma di proposte
                         {/* TODO: put link to contact us form */}
                         Per qualsiasi informazione,{" "}
-                        <WriteToUsLink to="/#write-to-us">
+                        <CustomLink primary underlined to="/#write-to-us">
                             non esitate a compilare il form qui sotto
-                        </WriteToUsLink>
+                        </CustomLink>
                         , vi ricontatteremo al più presto.
                     </p>
                 </Box>

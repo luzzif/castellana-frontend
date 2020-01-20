@@ -4,12 +4,13 @@ import { Hero } from "../components/hero";
 import { useStaticQuery, graphql } from "gatsby";
 import { Layout } from "../components/layout";
 import { WhoAreWe } from "../components/who-are-we";
-import { WhatDoWeOffer } from "../components/what-do-we-offer";
+import { ImageStrip } from "../components/image-strip";
 import { SectionDivider } from "../components/section-divider";
 import { Shop } from "../components/shop";
 import { OurBrands } from "../components/our-brands";
 import { OurServices } from "../components/our-services";
 import { WriteToUs } from "../components/write-to-us";
+import { WhereAreWe } from "../components/where-we-are";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`
@@ -31,13 +32,18 @@ const Home = () => {
                         href:
                             "https://fonts.googleapis.com/css?family=Muli:500,700&display=swap",
                         rel: "stylesheet"
+                    },
+                    {
+                        href:
+                            "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css",
+                        rel: "stylesheet"
                     }
                 ]}
             />
             <Hero />
             <WhoAreWe />
             <SectionDivider />
-            <WhatDoWeOffer />
+            <ImageStrip />
             <SectionDivider />
             <Shop />
             <SectionDivider />
@@ -46,6 +52,7 @@ const Home = () => {
             <OurBrands />
             <SectionDivider />
             <WriteToUs />
+            <WhereAreWe />
         </Layout>
     );
 };

@@ -37,9 +37,7 @@ const Home = () => {
             />
             <Hero />
             <WhoAreWe />
-            <SectionDivider />
             <ImageStrip />
-            <SectionDivider />
             <Shop />
             <SectionDivider />
             <OurServices />

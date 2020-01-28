@@ -7,8 +7,10 @@ const proxy = require("http-proxy-middleware");
 module.exports = {
     siteMetadata: {
         title: "Castellana food service",
-        // TODO: change the text
-        description: "Castellana s.r.l effettua food delivery di qualità",
+        // TODO: change URL on domain change
+        siteUrl: "https://castellana.netlify.com/",
+        description:
+            "Castellana s.r.l. è un’azienda di famiglia che opera nel settore della distribuzione food & beverage.",
         author: "Federico Luzzi"
     },
     plugins: [
@@ -40,6 +42,7 @@ module.exports = {
         },
         "gatsby-transformer-sharp",
         "gatsby-plugin-sharp",
+        "gatsby-plugin-sitemap",
         "gatsby-plugin-styled-components"
     ],
     developMiddleware: app => {

@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { RootDesktopFlex, RootMobileFlex } from "./styled";
+import { RootDesktopFlex, RootMobileFlex, CloseIcon } from "./styled";
 import { Box } from "reflexbox";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 export const CookiesAlert = ({ show, onClose }) => (
@@ -22,7 +21,7 @@ export const CookiesAlert = ({ show, onClose }) => (
                 abbandonare il sito.
             </Box>
             <Box display={["none", "none", "flex"]}>
-                <FontAwesomeIcon icon={faTimes} onClick={onClose} />
+                <CloseIcon icon={faTimes} onClick={onClose} />
             </Box>
         </RootDesktopFlex>
         <RootMobileFlex
@@ -39,7 +38,7 @@ export const CookiesAlert = ({ show, onClose }) => (
                 abbandonare il sito.
             </Box>
             <Box display={["flex", "flex", "none"]}>
-                <FontAwesomeIcon icon={faTimes} onClick={onClose} />
+                <CloseIcon icon={faTimes} onClick={onClose} />
             </Box>
         </RootMobileFlex>
     </>

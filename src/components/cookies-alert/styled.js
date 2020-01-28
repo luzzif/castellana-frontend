@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { Flex } from "reflexbox";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const commonStyle = css`
     position: fixed;
@@ -26,4 +27,8 @@ export const RootMobileFlex = styled(Flex)`
     right: 24px;
     left: 24px;
     ${commonStyle}
+`;
+
+export const CloseIcon = styled(FontAwesomeIcon)`
+    cursor: pointer;
 `;

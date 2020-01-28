@@ -8,10 +8,10 @@ export const Shop = () => (
         justifyContent="center"
         alignItems="center"
         id="shop"
-        pt={4}
-        pb={5}
+        mt={4}
+        mb={5}
     >
-        <Box width={["80%", "70%", "60%", "40%"]}>
+        <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
             <h2>E-commerce CASTELLANA.UX®</h2>
         </Box>
         <Box width={["80%", "70%", "60%", "40%"]}>

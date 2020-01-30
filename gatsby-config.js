@@ -9,6 +9,14 @@ module.exports = {
         title: "Castellana food service",
         // TODO: change URL on domain change
         siteUrl: "https://castellana.netlify.com/",
+        telephone: "+390992016978",
+        address: {
+            streetAddress: "Via De Gasperi 31",
+            addressLocality: "Monteiasi",
+            addressRegion: "Taranto",
+            addressCountry: "Italy",
+            postalCode: "74020"
+        },
         description:
             "Castellana s.r.l. è un’azienda di famiglia che opera nel settore della distribuzione food & beverage.",
         author: "Federico Luzzi"

@@ -12,6 +12,8 @@ export const Seo = ({ description, lang, meta, keywords, title, link }) => {
                         title
                         description
                         author
+                        siteUrl
+                        telephone
                     }
                 }
             }
@@ -19,6 +21,34 @@ export const Seo = ({ description, lang, meta, keywords, title, link }) => {
     );
 
     const metaDescription = description || site.siteMetadata.description;
+
+    const schema = [
+        {
+            // TODO: add email
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            url: site.siteMetadata.siteUrl,
+            name: title,
+            telephone: site.siteMetadata.telephone,
+            address: {
+                "@type": "PostalAddress",
+                ...site.siteMetadata.address
+            },
+            openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                opens: "07:00",
+                closes: "19:00"
+            }
+        }
+    ];
 
     return (
         <Helmet
@@ -75,7 +105,9 @@ export const Seo = ({ description, lang, meta, keywords, title, link }) => {
                         : []
                 )
                 .concat(meta)}
-        />
+        >
+            <script type="application/ld+json">{JSON.stringify(schema)}</script>
+        </Helmet>
     );
 };
 

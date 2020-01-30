@@ -26,7 +26,7 @@ export const Seo = ({ description, lang, meta, keywords, title, link }) => {
         {
             // TODO: add email
             "@context": "http://schema.org",
-            "@type": "WebSite",
+            "@type": "LocalBusiness",
             url: site.siteMetadata.siteUrl,
             name: title,
             telephone: site.siteMetadata.telephone,

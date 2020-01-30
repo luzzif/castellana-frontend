@@ -27,9 +27,7 @@ export const Footer = () => (
                         <SectionTitle>Su di noi</SectionTitle>
                     </Box>
                     <Box mb={2}>
-                        <CustomLink to="/#who-are-we">
-                            Chi siamo
-                        </CustomLink>
+                        <CustomLink to="/#who-are-we">Chi siamo</CustomLink>
                     </Box>
                     <Box>
                         <CustomLink to="/#customers">
@@ -48,9 +46,7 @@ export const Footer = () => (
                         <SectionTitle>Servizi</SectionTitle>
                     </Box>
                     <Box mb={2}>
-                        <CustomLink to="/#shop">
-                            E-commerce
-                        </CustomLink>
+                        <CustomLink to="/#shop">E-commerce</CustomLink>
                     </Box>
                     <Box mb={2}>
                         <CustomLink to="/#synchronized-logistics">
@@ -63,9 +59,7 @@ export const Footer = () => (
                         </CustomLink>
                     </Box>
                     <Box>
-                        <CustomLink to="/#cooking-hub">
-                            Cooking hub
-                        </CustomLink>
+                        <CustomLink to="/#cooking-hub">Cooking hub</CustomLink>
                     </Box>
                 </Flex>
             </Box>
@@ -79,9 +73,7 @@ export const Footer = () => (
                         <SectionTitle>Contattaci</SectionTitle>
                     </Box>
                     <Box mb={3}>
-                        <CustomLink to="/#write-to-us">
-                            Scrivici
-                        </CustomLink>
+                        <CustomLink to="/#write-to-us">Scrivici</CustomLink>
                     </Box>
                 </Flex>
             </Box>
@@ -137,6 +129,12 @@ export const Footer = () => (
         >
             <Box mb={1} mt={[3, 4, 0]}>
                 <b>Sede</b>: Via De Gasperi, 31, 74020, Monteiasi
+            </Box>
+            <Box mb={1} mt={[3, 4, 0]}>
+                <b>Telefono</b>:{" "}
+                <CustomLink external href="tel:+390992016978">
+                    +390992016978
+                </CustomLink>
             </Box>
             <Box mb={1}>
                 <b>Partita IVA</b>: 02999070739

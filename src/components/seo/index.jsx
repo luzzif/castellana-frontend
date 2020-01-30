@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+import logoBlack from "../../images/logo-black.svg";
 
 export const Seo = ({ description, lang, meta, keywords, title, link }) => {
     const { site } = useStaticQuery(
@@ -46,7 +47,8 @@ export const Seo = ({ description, lang, meta, keywords, title, link }) => {
                 ],
                 opens: "07:00",
                 closes: "19:00"
-            }
+            },
+            image: logoBlack
         }
     ];
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Seo } from "../components/seo";
 import { Hero } from "../components/hero";
+import { ComingSoon } from "../components/coming-soon";
 import { useStaticQuery, graphql } from "gatsby";
 import { Layout } from "../components/layout";
 import { WhoAreWe } from "../components/who-are-we";
@@ -35,7 +36,9 @@ const Home = () => {
                     }
                 ]}
             />
-            <Hero />
+            {/* TODO: fix when actually online */}
+            <ComingSoon />
+            {/* <Hero />
             <WhoAreWe />
             <SectionDivider />
             <ImageStrip />
@@ -47,7 +50,7 @@ const Home = () => {
             <OurBrands />
             <SectionDivider />
             <WriteToUs />
-            <WhereAreWe />
+            <WhereAreWe /> */}
         </Layout>
     );
 };

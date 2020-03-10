@@ -7,7 +7,7 @@ const commonStyle = css`
     background: #000;
     color: #fff;
     border-radius: 16px;
-    box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 42px 0px rgba(255, 255, 255, 0.4);
     z-index: 1000;
     ${props =>
         !props.show &&

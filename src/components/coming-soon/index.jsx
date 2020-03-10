@@ -14,7 +14,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { SocialLink } from "../social-link";
 import logoWhite from "../../images/logo-white.svg";
 
-export const Hero = () => {
+export const ComingSoon = () => {
     const { heroImage } = useStaticQuery(graphql`
         query {
             heroImage: file(relativePath: { eq: "hero.jpeg" }) {
@@ -42,11 +42,23 @@ export const Hero = () => {
                 <Box py={3} width={["60%", "50%", "40%", "25%"]}>
                     <LogoImage src={logoWhite} alt="Logo" />
                 </Box>
-                <Box py={3} textAlign="center">
-                    <Slogan>
-                        Scegli il meglio, al resto ci pensiamo
-                        <HighlightedText> noi</HighlightedText>
-                    </Slogan>
+                <Box
+                    py={3}
+                    textAlign="center"
+                    width={["90%", "80%", "60%", "50%", "40%"]}
+                >
+                    <Box mb={3}>
+                        <Slogan>
+                            Ci stiamo preparando per offrirti
+                            <HighlightedText> il meglio</HighlightedText>.
+                        </Slogan>
+                    </Box>
+                    <Box>
+                        <Slogan>
+                            Seguici sulle nostre pagine social per rimanere
+                            sempre aggiornato.
+                        </Slogan>
+                    </Box>
                 </Box>
                 <Box py={3}>
                     <Flex mx={-1}>
@@ -62,9 +74,6 @@ export const Hero = () => {
                     </Flex>
                 </Box>
             </RootFlex>
-            <AbsoluteContainer>
-                <StyledIcon icon={faChevronDown} />
-            </AbsoluteContainer>
         </>
     );
 };

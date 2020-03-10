@@ -14,17 +14,17 @@ import { RootFlex } from "./styled";
 const socialInfo = {
     facebook: {
         icon: faFacebook,
-        url: "https://www.facebook.com",
+        url: "https://www.facebook.com/castellanafoodservice",
         name: "Facebook"
     },
     instagram: {
         icon: faInstagram,
-        url: "https://instagram.com",
+        url: "https://www.instagram.com/castellanaforniture/",
         name: "Instagram"
     },
     linkedin: {
         icon: faLinkedin,
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/castellana-forniture-49179a19b/",
         name: "Linkedin"
     }
 };

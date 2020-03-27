@@ -19,14 +19,13 @@ export const Layout = ({ children }) => {
 
     return (
         <>
-            {/* TODO: uncomment when online */}
-            {/* <Toolbar /> */}
+            <Toolbar />
             <Main>{children}</Main>
-            {/* <Footer /> */}
-            {/* <CookiesAlert
+            <Footer />
+            <CookiesAlert
                 show={!cookies[cookiesAlertHiddenCookieName]}
                 onClose={handleClose}
-            /> */}
+            />
         </>
     );
 };

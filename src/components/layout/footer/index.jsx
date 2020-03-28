@@ -9,7 +9,7 @@ import { CustomLink } from "../../custom-link";
 export const Footer = () => (
     <RootFlex
         py={[4, 5]}
-        px={["24px", 4, 4, 5]}
+        px={["16px", 4, 4, 5]}
         justifyContent="space-between"
         flexDirection={["column", "column", "column", "row"]}
     >

@@ -12,6 +12,7 @@ export const WhereAreWe = () => {
                 center={[LATITUDE, LONGITUDE]}
                 zoom={ZOOM}
                 style={{
+                    zIndex: 1,
                     height: 400,
                     boxShadow: "0px 10px 42px 0px rgba(0, 0, 0, 0.4)"
                 }}

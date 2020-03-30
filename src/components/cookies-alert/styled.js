@@ -31,4 +31,6 @@ export const RootMobileFlex = styled(Flex)`
 
 export const CloseIcon = styled(FontAwesomeIcon)`
     cursor: pointer;
+    display: flex;
+    align-items: center;
 `;

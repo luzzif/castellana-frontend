@@ -128,7 +128,7 @@ export const Footer = () => (
             fontSize="16px"
         >
             <Box mb={1} mt={[3, 4, 0]}>
-                <b>Sede</b>: Via De Gasperi, 31, 74020, Monteiasi
+                <b>Sede</b>: Contrada Curezze - 74021 Carosino (TA)
             </Box>
             <Box mb={1} mt={[3, 4, 0]}>
                 <b>Telefono</b>:{" "}

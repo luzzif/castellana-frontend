@@ -13,11 +13,11 @@ export const Shop = () => (
         mb={5}
     >
         <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
-            <h2>E-commerce CASTELLANA.UX®</h2>
+            <h2>E-commerce Castellana Shop</h2>
         </Box>
         <Box width={["80%", "70%", "60%", "40%"]} mb={3}>
-            Grazie alla piattaforma e-commerce CASTELLANA.UX® potrai effettuare
-            acquisti da piattaforma su PC, smartphone o tablet.
+            Scopri l’innovativo e-commerce Castellana Shop, dove potrai
+            effettuare acquisti da piattaforma su PC, smartphone o tablet.
             <p>
                 Registrati alla nostra community ed inizia ad effettuare i primi
                 ordini.
@@ -27,11 +27,11 @@ export const Shop = () => (
             <Button />
         </Box>
         <Box mt={3} width={["80%", "70%", "60%", "40%"]}>
-            In alternativa, scopri la nostra selezione di prodotti sfogliando il
-            nostro volantino, semplicemente cliccando{" "}
+            In alternativa, visita la nostra selezione di prodotti sfogliando il{" "}
             <CustomLink underlined external primary>
-                qui
+                volantino
             </CustomLink>
+            .
         </Box>
     </Flex>
 );

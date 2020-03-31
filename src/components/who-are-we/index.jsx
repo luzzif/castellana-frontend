@@ -20,7 +20,7 @@ export const WhoAreWe = () => (
             </p>
             <p>
                 Gestiamo più di 4800 articoli, conservati nei nostri capannoni
-                da7000mq (dotati di celle frigo da -40°C a 4°C), trasportati
+                da 7000mq (dotati di celle frigo da -40°C a 4°C), trasportati
                 dalla flotta di furgoni attrezzati.
             </p>
             <p>

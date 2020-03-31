@@ -17,7 +17,7 @@ export const Shop = () => (
         </Box>
         <Box width={["80%", "70%", "60%", "40%"]} mb={3}>
             Scopri l’innovativo e-commerce Castellana Shop, dove potrai
-            effettuare acquisti da piattaforma su PC, smartphone o tablet.
+            effettuare i tuoi acquisti comodamente da PC, smartphone o tablet.
             <p>
                 Registrati alla nostra community ed inizia ad effettuare i primi
                 ordini.

@@ -42,12 +42,6 @@ module.exports = {
                 trackingId: process.env.ANALYTICS_TRACKING_ID
             }
         },
-        {
-            resolve: "gatsby-plugin-react-leaflet",
-            options: {
-                linkStyles: true
-            }
-        },
         "gatsby-transformer-sharp",
         "gatsby-plugin-sharp",
         "gatsby-plugin-sitemap",

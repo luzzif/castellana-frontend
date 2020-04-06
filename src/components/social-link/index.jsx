@@ -10,7 +10,6 @@ import { Box } from "reflexbox";
 import { CustomLink } from "../custom-link";
 import { RootFlex } from "./styled";
 
-// TODO: put proper links
 const socialInfo = {
     facebook: {
         icon: faFacebook,

@@ -23,7 +23,12 @@ export const Layout = ({ children }) => {
             <Main>{children}</Main>
             <Footer />
             <CookiesAlert
-                show={!cookies[cookiesAlertHiddenCookieName]}
+                show={
+                    !(
+                        cookies[cookiesAlertHiddenCookieName] &&
+                        cookies[cookiesAlertHiddenCookieName] === "true"
+                    )
+                }
                 onClose={handleClose}
             />
         </>

@@ -7,7 +7,6 @@ const proxy = require("http-proxy-middleware");
 module.exports = {
     siteMetadata: {
         title: "Castellana food service",
-        // TODO: change URL on domain change
         siteUrl: "https://castellanaservice.com/",
         telephone: "+390992016978",
         address: {

@@ -13,7 +13,7 @@ export const Shop = () => (
         mb={5}
     >
         <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
-            <h2>E-commerce Castellana Shop</h2>
+            <h2>E-commerce Castellana Food Experience</h2>
         </Box>
         <Box width={["80%", "70%", "60%", "40%"]} mb={3}>
             Scopri l’innovativo e-commerce Castellana Shop, dove potrai

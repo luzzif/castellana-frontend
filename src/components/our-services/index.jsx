@@ -21,7 +21,7 @@ export const OurServices = () => {
                 }
             }
             cashAndCarryImage: file(
-                relativePath: { eq: "services/cash-and-carry.jpeg" }
+                relativePath: { eq: "services/cash-and-carry.jpg" }
             ) {
                 childImageSharp {
                     fluid(quality: 90) {

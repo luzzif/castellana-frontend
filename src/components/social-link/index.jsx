@@ -10,7 +10,6 @@ import { Box } from "reflexbox";
 import { CustomLink } from "../custom-link";
 import { RootFlex } from "./styled";
 
-// TODO: put proper links
 const socialInfo = {
     facebook: {
         icon: faFacebook,
@@ -19,7 +18,7 @@ const socialInfo = {
     },
     instagram: {
         icon: faInstagram,
-        url: "https://www.instagram.com/castellanaforniture/",
+        url: "https://www.instagram.com/castellana_forniture/",
         name: "Instagram"
     },
     linkedin: {

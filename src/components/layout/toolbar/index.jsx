@@ -63,6 +63,9 @@ export const Toolbar = () => {
                         <Box px={3}>
                             <Item to="/#customers">I nostri marchi</Item>
                         </Box>
+                        <Box px={3}>
+                            <Item to="/#write-to-us">Scrivici</Item>
+                        </Box>
                     </Flex>
                 </Box>
                 <Box display={["flex", "flex", "none"]}>

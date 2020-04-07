@@ -18,7 +18,7 @@ const commonStyle = css`
 
 export const RootDesktopFlex = styled(Flex)`
     bottom: 24px;
-    right: 24px;
+    left: 24px;
     ${commonStyle}
 `;
 

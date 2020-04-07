@@ -10,6 +10,7 @@ import { Shop } from "../components/shop";
 import { OurBrands } from "../components/our-brands";
 import { OurServices } from "../components/our-services";
 import { WriteToUs } from "../components/write-to-us";
+import { WriteToUsShortcut } from "../components/write-to-us-shortcut";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`
@@ -46,6 +47,7 @@ const Home = () => {
             <OurBrands />
             <SectionDivider />
             <WriteToUs />
+            <WriteToUsShortcut />
         </Layout>
     );
 };

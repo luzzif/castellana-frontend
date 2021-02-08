@@ -9,7 +9,7 @@ import { CustomLink } from "../../custom-link";
 export const Footer = () => (
     <RootFlex
         py={[4, 5]}
-        px={["24px", 4, 4, 5]}
+        px={["16px", 4, 4, 5]}
         justifyContent="space-between"
         flexDirection={["column", "column", "column", "row"]}
     >
@@ -128,7 +128,7 @@ export const Footer = () => (
             fontSize="16px"
         >
             <Box mb={1} mt={[3, 4, 0]}>
-                <b>Sede</b>: Via De Gasperi, 31, 74020, Monteiasi
+                <b>Sede</b>: Contrada Curezze - 74021 Carosino (TA)
             </Box>
             <Box mb={1} mt={[3, 4, 0]}>
                 <b>Telefono</b>:{" "}

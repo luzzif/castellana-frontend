@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Box } from "reflexbox";
 import { Button } from "./button";
+import { CustomLink } from "../custom-link";
 
 export const Shop = () => (
     <Flex
@@ -12,18 +13,25 @@ export const Shop = () => (
         mb={5}
     >
         <Box width={["80%", "70%", "60%", "40%"]} textAlign="center">
-            <h2>E-commerce CASTELLANA.UX®</h2>
+            <h2>E-commerce Castellana Food Experience</h2>
         </Box>
-        <Box width={["80%", "70%", "60%", "40%"]}>
-            Grazie alla piattaforma e-commerce CASTELLANA.UX® potrai effettuare
-            acquisti da piattaforma su PC, smartphone o tablet.
+        <Box width={["80%", "70%", "60%", "40%"]} mb={3}>
+            Scopri l’innovativo e-commerce Castellana Shop, dove potrai
+            effettuare i tuoi acquisti comodamente da PC, smartphone o tablet.
             <p>
                 Registrati alla nostra community ed inizia ad effettuare i primi
                 ordini.
             </p>
         </Box>
-        <Box mt={3}>
+        <Box mb={3}>
             <Button />
+        </Box>
+        <Box mt={3} width={["80%", "70%", "60%", "40%"]}>
+            In alternativa, visita la nostra selezione di prodotti sfogliando il{" "}
+            <CustomLink underlined external primary>
+                volantino
+            </CustomLink>
+            .
         </Box>
     </Flex>
 );

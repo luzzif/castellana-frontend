@@ -2,9 +2,10 @@ import styled from "styled-components";
 import { Flex } from "reflexbox";
 
 export const RootFlex = styled(Flex)`
-    background: #000;
+    background: #424242;
     color: #fff;
     max-width: 100vw;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.19), 0 -6px 6px rgba(0, 0, 0, 0.23);
 `;
 
 export const Logo = styled.img`

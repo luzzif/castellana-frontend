@@ -82,19 +82,12 @@ export const WriteToUs = () => {
                         Compila il form per inoltrarci le tue richieste.
                     </Box>
                     <Box mb={3} width="100%">
-                        <Input
-                            type="text"
-                            placeholder="Nome"
-                            onChange={handleNameChange}
-                            aria-label="Nome"
-                        />
+                        <Input placeholder="Nome" onChange={handleNameChange} />
                     </Box>
                     <Box mb={3} width="100%">
                         <Input
-                            type="text"
-                            placeholder="Nome"
+                            placeholder="E-mail"
                             onChange={handleEmailChange}
-                            aria-label="Nome"
                         />
                     </Box>
                     <Box mb={3} width="100%">

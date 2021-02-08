@@ -7,15 +7,14 @@ const proxy = require("http-proxy-middleware");
 module.exports = {
     siteMetadata: {
         title: "Castellana food service",
-        // TODO: change URL on domain change
-        siteUrl: "https://castellana.netlify.com/",
+        siteUrl: "https://castellanaservice.com/",
         telephone: "+390992016978",
         address: {
-            streetAddress: "Via De Gasperi 31",
-            addressLocality: "Monteiasi",
+            streetAddress: "Contrada Curezze",
+            addressLocality: "Carosino",
             addressRegion: "Taranto",
             addressCountry: "Italy",
-            postalCode: "74020"
+            postalCode: "74021"
         },
         description:
             "Castellana s.r.l. è un’azienda di famiglia che opera nel settore della distribuzione food & beverage.",
@@ -40,12 +39,6 @@ module.exports = {
             resolve: "gatsby-plugin-google-analytics",
             options: {
                 trackingId: process.env.ANALYTICS_TRACKING_ID
-            }
-        },
-        {
-            resolve: "gatsby-plugin-react-leaflet",
-            options: {
-                linkStyles: true
             }
         },
         "gatsby-transformer-sharp",

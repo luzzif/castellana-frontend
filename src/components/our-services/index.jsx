@@ -21,7 +21,7 @@ export const OurServices = () => {
                 }
             }
             cashAndCarryImage: file(
-                relativePath: { eq: "services/cash-and-carry.jpeg" }
+                relativePath: { eq: "services/cash-and-carry.jpg" }
             ) {
                 childImageSharp {
                     fluid(quality: 90) {
@@ -63,13 +63,18 @@ export const OurServices = () => {
                     px={[0, 4]}
                     id="synchronized-logistics"
                 >
-                    <h3>Logistica</h3>
+                    <h3>Logistica ed export</h3>
                     <p>
-                        Effettuiamo consegne direttamente in giornata. Siamo
-                        attrezzati anche per l’export avvalendoci di
+                        Effettuiamo consegne giornaliere in tutto il territorio.
+                        Siamo attrezzati anche per l’export avvalendoci di
                         professionisti del settore che ci consentono la
                         spedizione delle nostre merci anche in paesi come Cina,
-                        Singapore, India, Australia, America.
+                        Singapore, India, Australia, America. Per qualsiasi
+                        informazione,{" "}
+                        <CustomLink primary underlined to="/#write-to-us">
+                            non esitate a compilare il form qui sotto
+                        </CustomLink>
+                        , vi ricontatteremo al più presto.
                     </p>
                 </Box>
                 <Box width={[8 / 10, 1 / 2, 1 / 3]} px={[0, 4]} mb={[4, 0]}>
@@ -115,12 +120,10 @@ export const OurServices = () => {
                 <Box width={[1, 1 / 2, 2 / 3]} px={[0, 4]} id="cooking-hub">
                     <h3>Cooking hub</h3>
                     <p>
-                        Cooking Hub è{/* TODO: put correct size */}
-                        un’aera offerta da Castellana di 200mq nella quale
-                        poter organizzare eventi, cooking show, shooting ed
-                        attività di team building con un'ampia gamma di proposte
-                        {/* TODO: put link to contact us form */}
-                        Per qualsiasi informazione,{" "}
+                        Cooking Hub è un’aera offerta da Castellana di 200mq
+                        nella quale poter organizzare eventi, cooking show,
+                        shooting ed attività di team building con un'ampia gamma
+                        di proposte. Per qualsiasi informazione,{" "}
                         <CustomLink primary underlined to="/#write-to-us">
                             non esitate a compilare il form qui sotto
                         </CustomLink>

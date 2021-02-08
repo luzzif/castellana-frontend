@@ -7,7 +7,7 @@ const commonStyle = css`
     background: #000;
     color: #fff;
     border-radius: 16px;
-    box-shadow: 0px 10px 42px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 10px 42px 0px rgba(0, 0, 0, 0.6);
     z-index: 1000;
     ${props =>
         !props.show &&
@@ -18,7 +18,7 @@ const commonStyle = css`
 
 export const RootDesktopFlex = styled(Flex)`
     bottom: 24px;
-    right: 24px;
+    left: 24px;
     ${commonStyle}
 `;
 
@@ -31,4 +31,6 @@ export const RootMobileFlex = styled(Flex)`
 
 export const CloseIcon = styled(FontAwesomeIcon)`
     cursor: pointer;
+    display: flex;
+    align-items: center;
 `;

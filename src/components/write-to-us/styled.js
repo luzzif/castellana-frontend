@@ -48,8 +48,8 @@ export const SubmitButton = styled.button`
             0 15px 12px rgba(0, 0, 0, 0.22);
     }
     :disabled {
-        background: #e0e0e0;
-        color: #757575;
+        background: #a9a9a9;
+        color: #fff;
     }
 `;
 

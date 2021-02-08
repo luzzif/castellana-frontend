@@ -1,5 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-# TODO: change URL on domain change
-Sitemap: https://castellana.netlify.com/sitemap.xml 
+Sitemap: https://castellanaservice.com/sitemap.xml 

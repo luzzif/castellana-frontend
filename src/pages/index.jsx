@@ -1,7 +1,6 @@
 import React from "react";
 import { Seo } from "../components/seo";
 import { Hero } from "../components/hero";
-import { ComingSoon } from "../components/coming-soon";
 import { useStaticQuery, graphql } from "gatsby";
 import { Layout } from "../components/layout";
 import { WhoAreWe } from "../components/who-are-we";
@@ -11,7 +10,7 @@ import { Shop } from "../components/shop";
 import { OurBrands } from "../components/our-brands";
 import { OurServices } from "../components/our-services";
 import { WriteToUs } from "../components/write-to-us";
-import { WhereAreWe } from "../components/where-we-are";
+import { WriteToUsShortcut } from "../components/write-to-us-shortcut";
 
 const Home = () => {
     const { site } = useStaticQuery(graphql`
@@ -36,9 +35,7 @@ const Home = () => {
                     }
                 ]}
             />
-            {/* TODO: fix when actually online */}
-            <ComingSoon />
-            {/* <Hero />
+            <Hero />
             <WhoAreWe />
             <SectionDivider />
             <ImageStrip />
@@ -50,7 +47,7 @@ const Home = () => {
             <OurBrands />
             <SectionDivider />
             <WriteToUs />
-            <WhereAreWe /> */}
+            <WriteToUsShortcut />
         </Layout>
     );
 };

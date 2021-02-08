@@ -14,11 +14,7 @@ export const CookiesAlert = ({ show, onClose }) => (
             px={4}
         >
             <Box display={["none", "none", "flex"]} mr={2}>
-                Questo sito fa uso di cookie per migliorare l’esperienza di
-                navigazione degli utenti e per raccogliere informazioni
-                sull’utilizzo del sito stesso. Proseguendo nella navigazione si
-                accetta l’uso dei cookie; in caso contrario è possibile
-                abbandonare il sito.
+                Utilizzando il sito acconsenti all'utilizzo dei cookies.
             </Box>
             <Box display={["none", "none", "flex"]}>
                 <CloseIcon icon={faTimes} onClick={onClose} />
@@ -31,11 +27,7 @@ export const CookiesAlert = ({ show, onClose }) => (
             px={4}
         >
             <Box display={["flex", "flex", "none"]}>
-                Questo sito fa uso di cookie per migliorare l’esperienza di
-                navigazione degli utenti e per raccogliere informazioni
-                sull’utilizzo del sito stesso. Proseguendo nella navigazione si
-                accetta l’uso dei cookie; in caso contrario è possibile
-                abbandonare il sito.
+                Utilizzando il sito acconsenti all'utilizzo dei cookies.
             </Box>
             <Box display={["flex", "flex", "none"]}>
                 <CloseIcon icon={faTimes} onClick={onClose} />
